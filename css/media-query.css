@@ -11,18 +11,19 @@ Desktop: 992px até 1200
 Grandes Telas: acime de 1200px 
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 550px) and (max-width: 992px) {
     body {
-        background-image: url(../images/1background-index-tablet.jpg);
+        background-image: url(../images/back-portrait3.jpg);
+        background-position: center 100px;
     }
 }
 @media screen and (min-width: 992px) and (max-width:1200px) {
     body {
-        background-image: url(../images/2background-index-desktop.jpg);
+        background-image: url(../images/back-landscape.jpg)
     }
 }
 @media screen and (min-width: 1200px) {
     body {
-        background-image: url(../images/3background-index-tv.jpg);
+        background-image: url(../images/back-landscape-big.png);
     }
 }

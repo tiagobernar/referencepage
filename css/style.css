@@ -1,10 +1,10 @@
 @charset "UTF-8";
 :root {
-    --cor0: #574836;
-    --cor1: #75340E;
-    --cor2: #472E1C;
-    --cor3: #8F643C;
-    --cor4: #C9C8C9;
+    --cor0: #097DEA;
+    --cor1: #054B86;
+    --cor2: #053969;
+    --cor3: #064B79;
+    --cor4: #A6C0D4;
 
 }
 * {
@@ -18,37 +18,47 @@ html {
     height: 100vh;
 }
 body {
-    background-image: url(../images/1background-index.jpg);
+    background-image: url(../images/back-portrait2.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: center 130px;
+    
+    
 }
 header {
+   background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
+   min-height: 120px;
     
 }
 header > h1 {
     color: white;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+    
 }
 header > p {
     color: white;
     font-weight: bolder;
     text-align: center;
-    font-size: 1.5em;
-    padding: 10px;
+    font-size: 1.2em;
+    padding: 5px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
 }
 nav {
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.363);
     padding: 7px;
     background-color: var(--cor4);
+    border-radius: 4px;
+    text-align: center;
+    
 }
 nav > a {
     color: var(--cor2);
     padding: 5px;
-    border-radius: 5px;
+    font-size: 0.8em;
+    border-radius: 3px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
@@ -56,9 +66,11 @@ nav > a {
 nav > a:hover {
     background-color: var(--cor0);
     color: var(--cor4);
+    text-decoration: underline;
 }
 img {
     display: block;
     margin: auto;
 }
+
 
